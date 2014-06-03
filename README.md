@@ -22,6 +22,13 @@ css  reset代码
 
 ###html
 ####module
+#####layout
+1. index.html
+2. index.js
+
+#####xxxxx
+1. index.html
+2. index.js
 
 ###javascript
 脚本源代码
