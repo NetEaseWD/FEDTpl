@@ -1,3 +1,6 @@
+Usage
+======
+git clone https://github.com/NetEaseWD/FEDTpl
 
 FEDTpl
 ======
