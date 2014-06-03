@@ -23,7 +23,7 @@
 </div>
 <!-- @DEFINE -->
 <script src="${jslib}define.js?pro=${jspro}"></script>
-<script src="${jspro}pages/index.js"></script>
+<script src="${jspro}page/index.js"></script>
 </body>
 </html>
 </@compress>

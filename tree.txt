@@ -15,6 +15,24 @@ src
 template
 
 ./webapp/WEB-INF/template:
+fake
+pages
+wrap
+
+./webapp/WEB-INF/template/fake:
+
+./webapp/WEB-INF/template/pages:
+index.ftl
+
+./webapp/WEB-INF/template/wrap:
+common.ftl
+config.ftl
+css.ftl
+header.ftl
+side.ftl
+top.ftl
+var.ftl
+widget.ftl
 
 ./webapp/deploy:
 release.bat
@@ -243,6 +261,10 @@ nej
 pages
 
 ./webapp/src/css:
+base.css
+grid.css
+module.css
+unit.css
 
 ./webapp/src/html:
 module
@@ -280,6 +302,13 @@ card.js
 window.js
 
 ./webapp/src/mcss:
+_config.mcss
+_prefix.mcss
+base.mcss
+grid.mcss
+mcss.json
+module.mcss
+unit.mcss
 
 ./webapp/src/nej:
 base
@@ -908,3 +937,4 @@ oauth.js
 register.js
 
 ./webapp/src/pages:
+index.js
