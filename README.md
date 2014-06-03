@@ -1,7 +1,7 @@
 
 FEDTpl
 ======
-#webapp:       
+#webapp      
 前端项目架构文件
 ##res
 静态资源文件夹,图片,flash等
