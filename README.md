@@ -125,21 +125,24 @@ nej库文件
 ###tpl
 打包后的项目模板文件，开发者不用关心这个文件夹
 
+#psd		        
+psd为精灵图的的psd文件
+1. xxxx1.psd
+2. xxxx2.psd
+
+
 #deploy		      
 打包文件的配置，如果用了这在套结构可以直接用里面的bat文件打包输入，r文件夹为最后的打包后的线上前端文件
 
 1. release.bat	打包执行文件
 2. release.conf	   打包配置文件
 
-
-#psd		        
-psd为精灵图的的psd文件
-
-1. xxxx1.psd
-2. xxxx2.psd
-
-#publisher       
+##publisher       
 打包工具文件夹此文件夹不用开发者关心，是配合deploy文件夹下的脚本运行的打包工具
+
+
+
+
 
 
 
