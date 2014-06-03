@@ -59,8 +59,8 @@ nej列表项都从这个脚本继承
 #####window
 窗体都从这个对象继承
 
-1.xxx2.window.js
-2.xxx2.window.js
+1. xxx2.window.js
+2. xxx2.window.js
 
 #####module.js
 所有的页面模块都由这个脚本继承而去
@@ -121,10 +121,9 @@ nej库文件
 #deploy		      
 打包文件的配置，如果用了这在套结构可以直接用里面的bat文件打包输入，r文件夹为最后的打包后的线上前端文件
 
-1. release.bat	
-打包执行文件
-2. release.conf	  
-打包配置文件
+1. release.bat	打包执行文件
+2. release.conf	   打包配置文件
+
 
 #psd		        
 psd为精灵图的的psd文件
