@@ -1,0 +1,10 @@
+@abstract '_config.mcss';
+/* grid */
+html,body{width:100%;height:100%;}
+.g-doc{position:relative;width:960px;height:100%;margin:0 auto;}
+.g-bd{position:absolute;top:10%;bottom:10%;width:100%;min-height:325px;_height:600px;}
+.g-sd{position:absolute;width:276px;height:100%;}
+.g-pt{$listwrap();left:276px;width:36px;overflow:hidden;}
+.g-mn{position:absolute;right:0;width:648px;height:100%;@extend bg-wel;}
+.g-mn-2{@extend bg-wel2;}
+.g-ft{@extend bg-ft;position:absolute;left:0;bottom:16px;width:100%;height:16px;background-position: center 0;}

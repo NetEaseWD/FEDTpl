@@ -1,0 +1,18 @@
+.g-bd{width:980px;margin:0 auto;}
+/*两栏布局*/
+.g-bd1{margin:0 0 10px;}
+.g-sd1{position:relative;float:left;width:190px;margin-right:-190px;}
+.g-mn1{float:right;width:100%;}
+.g-mn1c{margin-left:200px;}
+
+.g-top{background:#cc3333;color:#fff;}
+.g-foot{width:1000px;height:52px;margin:0 auto;border-top:1px solid #c94a40;color:#333;text-align:center;padding-top:16px;}
+.g-bd{width:1000px;margin:0 auto;padding:30px 0;position:relative}
+.g-sd1{float:left;width:230px;margin-right:-230px;position:relative;}
+.g-mn1{width:100%;float:right;}
+.g-mn1c{margin-left:280px;}
+.g-sd2{float: left;width: 155px;margin-right: -155px;position: relative;}
+.g-mn2c{margin-left:155px;}
+.g-indexbd{width:1280px;margin:0 auto;padding:40px 0;}
+.g-indexmn{float:left;width:660px;}
+.g-indexsd{float:left;width:320px;margin-left:20px;}

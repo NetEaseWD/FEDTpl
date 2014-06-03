@@ -1,0 +1,78 @@
+@abstract '_config.mcss';
+/* reset */
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;outline:none;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:normal;}
+del,ins,u,s,a,a:hover{text-decoration:none;outline:none;}
+body,textarea,input,button,select,keygen,legend{font:$fs0/1.14 $ff1;color:$fc0;outline:0;}
+body{@extend bg-bd;cursor:default;}
+a,a:hover{color:$fc0;}
+input::-ms-clear,input::-ms-reveal{display:none;}
+::-webkit-scrollbar{width:6px;height:6px;}
+::-webkit-scrollbar-track{background:none;}
+::-webkit-scrollbar-thumb{border-radius:3px;background:rgba(92,110,130,0.6);}
+::-webkit-scrollbar-button,::-webkit-scrollbar-corner{display:none;}
+.z-placeholder{color:$fc11 !important;}
+:-moz-placeholder{color:$fc11 !important;}
+::-moz-placeholder{color:$fc11 !important;}
+:-ms-input-placeholder{color:$fc11 !important;}
+::-webkit-input-placeholder{color:$fc11 !important;}
+/* function */
+.f-cb,.f-cbli li{$clearfix();}
+.f-ff1{$yahei();}
+.f-fs0{font-size:$fs0;}
+.f-fs1{font-size:$fs1;}
+.f-ib{$inline-block();}
+.f-taj{$justify();}
+.f-wsn{$nowrap();}
+.f-pre{$pre();}
+.f-wwb{$break-word();}
+.f-toe{$ellipsis();}
+.f-usn{$noselect();}
+.f-dn{display:none;}
+.f-fl{float:left;}
+.f-fr{float:right;}
+.f-cp{cursor:pointer;}
+.f-vam,.f-vama *{vertical-align:middle;}
+.f-du,.f-du:hover{text-decoration:underline;}
+/* skin */
+.s-fc0{color:$fc0;}
+a.s-fc0:hover{color:$fc0;}
+.s-fc1{color:$fc1;}
+a.s-fc1:hover{color:$fc1;}
+.s-fc2{color:$fc2;}
+a.s-fc2:hover{color:$fc2;}
+.s-fc3{color:$fc3;}
+a.s-fc3:hover{color:$fc3;}
+.s-fc4{color:$fc4;}
+a.s-fc4:hover{color:$fc4;}
+.s-fc5{color:$fc5;}
+a.s-fc5:hover{color:$fc5;}
+.s-fc6{color:$fc6;}
+a.s-fc6:hover{color:$fc6;}
+.s-fc7{color:$fc7;}
+a.s-fc7:hover{color:$fc7;}
+.s-fc8{color:$fc8;}
+a.s-fc8:hover{color:$fc8;}
+.s-fc9{color:$fc9;}
+a.s-fc9:hover{color:$fc9;}
+.s-fc10{color:$fc10;}
+a.s-fc10:hover{color:$fc10;}
+/* 通用动画 */
+$keyframes(fadein,($prefix){
+    0%{opacity:0;}
+    100%{opacity:1;}
+});
